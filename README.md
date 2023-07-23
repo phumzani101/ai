@@ -1,4 +1,4 @@
-[Next.js](https://nextjs.org/) 13 AI chat, image, music, code, and video generation project using the openAI API and replicateAI API
+AI chat, image, music, code, and video generation [Next.js](https://nextjs.org/) 13 project using the openAI API and replicateAI API
 
 ## Getting Started
 
