@@ -15,6 +15,7 @@ import { Montserrat } from "next/font/google";
 import Link from "next/link";
 import React from "react";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 const montserrat = Montserrat({ subsets: ["latin"], weight: "600" });
 
@@ -73,9 +74,9 @@ const Sidebar = () => {
           className={cn("flex items-center pl-3 mb-14", montserrat.className)}
         >
           <div className="relative w-8 h-8 mr-4 text-2xl font-bold">
-            <BotIcon size={32} />
+            <Image src="/bot.png" fill alt="bot image" />
           </div>
-          <h1 className="text-3xl font-bold">AI</h1>
+          <h1 className="text-3xl font-bold">SythAI</h1>
         </Link>
         <div className="space-y-1">
           {routes.map((route) => {
