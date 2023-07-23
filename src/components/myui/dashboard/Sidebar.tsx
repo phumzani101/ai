@@ -1,6 +1,7 @@
 "use client";
 import { cn } from "@/lib/utils";
 import {
+  BotIcon,
   BrainCircuit,
   CodeIcon,
   ImageIcon,
@@ -72,9 +73,9 @@ const Sidebar = () => {
           className={cn("flex items-center pl-3 mb-14", montserrat.className)}
         >
           <div className="relative w-8 h-8 mr-4 text-2xl font-bold">
-            <BrainCircuit size={32} />
+            <BotIcon size={32} />
           </div>
-          <h1 className="text-1xl font-bold">SythAI</h1>
+          <h1 className="text-3xl font-bold">AI</h1>
         </Link>
         <div className="space-y-1">
           {routes.map((route) => {
